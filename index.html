@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Опис сайта">
+	<meta name="keywords" content="Ключові слова">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Link styles css, Bootstrap and favicon -->
+	<link rel="stylesheet" href="vendor/Bootstrap css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="vendor/fontawesome-free-5.7.1-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/Icon_3.png">
+
+
+	<title>MeetUp</title>
+</head>
+<body>
+<div class="wrapper">
+	<!-- Header Start -->
+<header class="header" id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<img src="img/logo.png" alt="logo" class="logo">
+			</div>
+			<div class="col-lg-7 ml-auto">
+				<ul class="menu">
+					<li class="menu__item">
+						<a href="#sign__up" class="menu__link">Event Details</a>
+					</li>
+					<li class="menu__item">
+						<a href="#speakers" class="menu__link">Speekers</a>
+					</li>
+					<li class="menu__item">
+						<a href="#sponsor" class="menu__link">Sponsor</a>
+					</li>
+					<li class="menu__item">
+						<a href="#events" class="menu__link">Past Events</a>
+					</li>
+					<li class="menu__item">
+						<a href="#contact" class="menu__link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Timer -->
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="header__time">
+					<div class="time__days time__item">
+						<p class="time__value days__time" id="days">20</p> 
+						<p class="this__time">days</p>
+					</div>
+
+					<div class="two__point">:</div>
+
+					<div class="time__hours time__item">
+						<p class="time__value hours__time" id="hours">10</p> 
+						<p class="this__time">hours</p>
+					</div>
+
+					<div class="two__point">:</div>
+					
+					<div class="time__minutes time__item">
+						<p class="time__value minute__time" id="minutes">33</p> 
+						<p class="this__time">minutes</p>
+					</div>
+					
+					<div class="two__point">:</div>
+
+					<div class="time__seconds time__item">
+						<p class="time__value seconds__time" id="seconds">45</p> 
+						<p class="this__time">seconds</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="header__bottom">
+					<img src="img/Icon_1.png" alt="" class="header__bottom-icon">
+					<img src="img/Icon_2.png" alt="" class="header__bottom-icon">
+					<img src="img/Icon_3.png" alt="" class="header__bottom-icon">
+					<img src="img/Icon_4.png" alt="" class="header__bottom-icon">
+					<img src="img/Icon_5.png" alt="" class="header__bottom-icon">
+				</div>
+			</div>
+		</div>
+		<div class="cut__off"></div>
+	</div>
+</header>
+<!-- Header End -->
+<!-- Featured Start -->
+<section class="featured" id="featured">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<h1>Welcome !</h1>
+				<p class="welcome__text">
+	The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...
+<br><br>
+	Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!
+<br><br>
+	It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;) <br>
+	Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our nvite page here too!
+				</p>
+			</div>
+			<!-- Header Form -->
+			<div class="col-lg-5 ml-auto">
+				<form action="mail.php" method="post" class="sign__up" id="sign__up">
+					<h2>Sign up for our event</h2>
+					<input type="text" class="name sign__input" name="first_name" placeholder="Your Name">
+					<input type="email" class="email sign__input" name="email" placeholder="Enter Your E-mail">
+					<input type="phone" class="phone sign__input" name="phone" placeholder="Phone Number">
+					<input type="text" class="envato__name sign__input" name="user" placeholder="Envato Username">
+					<div class="btn btn-success form__btn col-lg-12">Let me in!</div>
+					<p>Hurry up, Limited seats availble *we will never spam your email</p>
+				</form>
+			</div>
+		</div>
+		<!-- Advantages -->
+		<div class="row advantages">
+			<div class="col-lg-4">
+				<div class="advantage__item">
+					<img src="img/Icon_5.png" alt="">
+					<h2>Community</h2>
+					<p>Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation
+					and topics. We will have loads of fun.</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="advantage__item">
+					<img src="img/Icon_1.png" alt="">
+					<h2>Talk Shop</h2>
+					<p>In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="advantage__item">
+					<img src="img/Icon_3.png" alt="">
+					<h2>War Stories</h2>
+					<p>Gather round fellow authors!
+					Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Table -->
+		<div class="row">
+			<div class="col-lg-12">
+				<table align="center" width="100%" height="370">
+					<tr align="center" valign="center" bgcolor="#a3cc40">
+						<td><h3>Time</h3></td>
+						<td colspan="2"><h3>Stuff that will happen</h3></td>
+					</tr>
+					<tr align="center" valign="center" bgcolor="#373737">
+						<td>10am - 12pm</td>
+						<td>Introduction and presentations about Envato</td>
+						<td><img src="img/More_icon.png" alt=""></td>
+					</tr>
+					<tr align="center" valign="center" bgcolor="#4b4d4f">
+						<td>10am - 12pm</td>
+						<td>Introduction and presentations about Envato</td>
+						<td><img src="img/More_icon.png" alt=""></td>
+					</tr>
+					<tr align="center" valign="center" bgcolor="#373737">
+						<td>10am - 12pm</td>
+						<td>Introduction and presentations about Envato</td>
+						<td><img src="img/More_icon.png" alt=""></td>
+					</tr>
+					<tr align="center" valign="center" bgcolor="#4b4d4f">
+						<td>10am - 12pm</td>
+						<td>Introduction and presentations about Envato</td>
+						<td><img src="img/More_icon.png" alt=""></td>
+					</tr>
+					<tr align="center" valign="center" bgcolor="#373737">
+						<td>10am - 12pm</td>
+						<td>Introduction and presentations about Envato</td>
+						<td><img src="img/More_icon.png" alt=""></td>
+					</tr>
+				</table>
+				<p class="after__table">Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish it within our set time but it doesn’t have to be, if we all agree to hangour for some time more, what harm could it do? :)</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Featured End -->
+<!-- Envato Elit Start -->
+
+<section class="envato__elit" id="envato__elit">
+		<div class="cut__off-sponsor"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5">
+				<img src="img/Envato_Elite.png" alt="Envato Elit" class="elit__ico">
+			</div>
+			<div class="col-lg-7">
+				<div class="elit__text">
+					<h2 class="elit__title">We reward the Elites!</h2>
+				<p class="elit__paragraph">
+			Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the <br> people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.
+			<br><br>
+			All you have to do is contact us by clicking the button here and then its just going to the event, saying something <br> motivational and taking that swag while looking amazing infront of thousands of other community members.
+			<br><br>
+			*Be advised, we will only give you Elite thank you swag for each level of elite you cross<br>
+			That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.
+				</p>
+				</div>
+			</div>
+			<div class="col-lg-3 ml-auto">
+				<div class="btn btn-success elit__btn d-block">Bring on the swag!</div>
+			</div>
+		</div>
+	</div>
+	<div class="cut__bot-sponsor"></div>
+</section>
+
+<!-- Envato Elit End -->
+<!-- Speakers Start -->
+
+<section class="speakers" id="speakers">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<h2 class="speakers__title">Speakers</h2>
+				<p class="speakers__paragraph">
+					Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business.
+					Hope you will have a great time listening to our presentations!
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 d-flex justify-content-center align-items-center">
+				<img src="img/Specers_icon.png" alt="speakers">
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="speaker__item">
+					<h3>Shahriyer Shuvo</h3>
+					<p>More about selling in the Envato Marketplaces</p>
+					<div class="solial text-center">
+						<i class="fab fa-telegram-plane social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-vk social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-instagram social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-viber social__item">
+							<a href="#"></a>
+						</i>
+						<i class="fab fa-skype social__item">
+							<a href="#"></a></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Speaekers End -->
+<!-- Sponsor Start -->
+
+<section class="sponsor" id="sponsor">
+	<div class="cut__off-sponsor"></div>
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-lg-7 text-center">
+				<h2 class="sponsor__title">Sponsor Our Event!</h2>
+				<p class="sponsor__paragraph">
+	If you want to help us making this event lively and successful, help us by sponsoring our event! <br>
+	This will help us bring in more people, have better livestreaming equipment, maybe even our own chef! <br>
+	You can also sponsor us by giving away free swag at the event!
+<br><br>
+	Here’s who have sponsored us already:
+				</p>
+				<div class="sponsor__names d-flex align-items-center justify-content-between">
+					<img src="img/sponsor_mauntains.png" alt="mountains">
+					<img src="img/sponsor_S.png" alt="S">
+					<img src="img/sponsor__envato.png" height="28" width="153" alt="Envato">
+				</div>
+				<div class="col-lg-5 ml-auto mr-auto mt-5">
+					<div class="btn btn-success elit__btn d-block">Sponsor Us</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="cut__bot-sponsor"></div>
+</section>
+
+<!-- Sponsor End -->
+<!-- Events Start -->
+
+<section class="events" id="events">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="event__text">
+					<h2 class="event__title">Past Events</h2>
+					<p class="event__paragraph">Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We’re always planning to make our future events feel fresh and fun to be at. :)</p>
+				</div>
+			</div>
+		</div>
+		<div class="row xxc">
+			<div class="col-lg-6 xxx">
+				<div class="event__block"></div>
+			</div>
+			<div class="col-lg-6 xxx">
+				<div class="event__block"></div>
+			</div>
+			<div class="col-lg-5 xxx">
+				<div class="event__block"></div>
+			</div>
+			<div class="col-lg-7 xxx">
+				<div class="event__block"></div>
+			</div>
+			<div class="btn btn-dark event__btn col-lg-2 ml-auto mr-auto">View More</div>
+		</div>
+	</div>
+</section>
+
+<!-- Events End -->
+<!-- GoogleMap Start -->
+
+<section class="map" id="map">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-10">
+				<!-- Popup -->
+					<div class="popup d-flex justify-content-around" id="contact">
+						<div class="col-lg-5 map__left">
+							<img src="img/Icon_3.png" class="ml-auto mr-auto" width="130" alt="image">
+							<p class="location">
+								Lorem Ipsum Avenue, 420/2 elm <br> street, Melbourne, Sydney - 2122,<br>Kingdom of Australia
+							</p>
+							<div class="btn btn-success map__btn">View Map</div>
+						</div>
+					<div class="col-lg-5 map__right">
+						<form action="#" class="map__form">
+							<input type="email" name="email" placeholder="Enter your E-mail">
+							<textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message"></textarea>
+							<div class="btn btn-dark send__message">
+								Send Message
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- GoogleMap -->
+			<div class="col-lg-12">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82833.55731881343!2d25.558871365811097!3d49.54966989610287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473036ad4b82ce75%3A0xc484a447edb154e8!2z0KLQtdGA0L3QvtC_0ZbQu9GMLCDQotC10YDQvdC-0L_RltC70YzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNDYwMDM!5e0!3m2!1suk!2sua!4v1549618520556" width="100%" height="660"frameborder="0" class="google__map" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- GoogleMap End -->
+<!-- Footer Start -->
+
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-lg-12 ml-auto mr-auto">
+				<div class="solial text-center">
+					<i class="fab fa-telegram-plane social__item">
+						<a href="#"></a>
+					</i>
+						<a href="https://vk.com/x_raser"><i class="fab fa-vk social__item">
+					</i></a>
+					<i class="fab fa-instagram social__item">
+						<a href="https://www.instagram.com/dima_king16"></a>
+					</i>
+					<i class="fab fa-viber social__item">
+						<a href="tel:+380984778236"></a>
+					</i>
+					<i class="fab fa-skype social__item">
+						<a href="#"></a></i>
+				</div>
+				<p class="footer__text text-center">
+					Hope we see you at the event! <br>
+					All Rights Reserved. Envato Bangladesh © 2015
+				</p>
+			</div>
+			<i class="fas fa-arrow-up arrow__up"></i>
+		</div>
+	</div>
+</footer>
+<!-- Footer End -->
+</div>
+
+<!-- Link scripts start -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="vendor/Bootstrap js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Link scripts end -->
+</body>
+</html>
