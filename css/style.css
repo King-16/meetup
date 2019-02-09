@@ -389,6 +389,8 @@ table tr:first-child{
 
 .google__map{
 	position: relative;
+	border: none;
+	width: 100%;
 }
 .popup{
 	height: 530px;
