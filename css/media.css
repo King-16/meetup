@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+	.sign__up{
+		visibility: hidden;
+	}
+}
+@media screen and (max-width: 768px) {
+	.time__value{
+		font-size: 80px;
+	}
+	.two__point{
+		font-size: 80px;
+	}
+	.header__bottom-icon{
+	width: auto;
+	height: 90px;
+	}
+	.header__bottom-icon:nth-child(2){
+		margin-top: -5%;
+	}
+	.header__bottom-icon:nth-child(3){
+		margin-top: -7%;
+	}
+	.header__bottom-icon:nth-child(4){
+		margin-top: -9%;
+	}
+	.header__bottom-icon:nth-child(5){
+		margin-top: -12%;
+	}
+	.header__bottom{
+		margin-top: 130px;
+	}
+}

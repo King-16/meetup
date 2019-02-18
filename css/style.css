@@ -202,6 +202,20 @@ table td{
 	font-weight: 400;
 	cursor: pointer;
 }
+table tr{
+	text-align: center;
+	vertical-align: center;
+	height: 60px;
+}
+table tr:nth-child(2n){
+	background: #373737;
+}
+table tr:nth-child(odd){
+	background: #4b4d4f;
+}
+table tr:first-child{
+	background: #a3cc40;
+}
 .after__table{
 	margin-top: 40px;
 	text-align: center;
@@ -375,6 +389,8 @@ table td{
 
 .google__map{
 	position: relative;
+	border: none;
+	width: 100%;
 }
 .popup{
 	height: 530px;
