@@ -29,4 +29,36 @@
 	.header__bottom{
 		margin-top: 130px;
 	}
+	.menu{
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 425px) {
+	.time__value{
+		font-size: 40px;
+	}
+	.two__point{
+		font-size: 40px;
+	}
+	.this__time{
+		font-size: 10px;
+	}
+	.header__bottom-icon{
+	width: auto;
+	height: 90px;
+	}
+	.header__bottom-icon{
+		height: 65px;
+	}
+	.map__left,.map__right,.popup{
+		display: none!important;
+	}
+	.elit__text{
+		margin-top: 150px;
+	}
+}
+@media screen and (min-width: 769px) {
+	.menu__mobile,.fixed__button{
+		display: none;
+	}
 }

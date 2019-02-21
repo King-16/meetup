@@ -72,3 +72,19 @@ function updater(d, h, m, s) {
  document.getElementById("hours"), 
  document.getElementById("minutes"),
  document.getElementById("seconds"));
+
+
+ $(document).ready(function(){
+    $('.fixed__button').on('click',function(){
+        $('.sign__up').toggleClass('sign__active');
+    });
+ });
+
+ $(document).ready(function($){
+    if ($(window).width() <= '770'){
+        $('.menu').hide();
+        $('.menu__mobile').click(function(){
+            $('.menu').slideToggle();
+        });   
+    }
+});

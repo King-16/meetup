@@ -76,6 +76,11 @@ header{
 .menu__link:hover{
 	color: #90d23d;
 }
+.menu__mobile{
+	font-size: 25px;
+	display: block;
+	margin-right: 20px;
+}
 
 /* Timer */
 .header__time{
@@ -466,4 +471,25 @@ footer .social__item{
 	right: 10%;
 	top: 40%;
 	cursor: pointer;
+}
+
+.fixed__button{
+	text-align: center;
+	padding: 10px 50px;
+	background: #90d23d;
+	border-radius: 30px;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	z-index: 11;
+}
+.fixed__button h2{
+	color: #fff;
+}
+.sign__active{
+	visibility: visible!important;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
